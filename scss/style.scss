@@ -1,0 +1,14 @@
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+
+$variable-prefix: "mbr-";
+$primary: #fe4a49;
+$secondary: #2ab7ca;
+$warning: #fed766;
+$input-btn-focus-box-shadow: none;
+// $input-border-radius: 0;
+// $input-border-width: 0;
+
+@import "./variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "./material-bootstrap";

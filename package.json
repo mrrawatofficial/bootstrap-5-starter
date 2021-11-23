@@ -1,0 +1,27 @@
+{
+	"name": "bootstrap-5-starter",
+	"version": "1.0.0",
+	"description": "bootstrap starter pack with some customization",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mrrawatofficial/bootstrap-5-starter.git"
+	},
+	"keywords": [
+		"bootstrap",
+		"scss",
+		"starter"
+	],
+	"author": "Rahul Rawat",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mrrawatofficial/bootstrap-5-starter/issues"
+	},
+	"homepage": "https://github.com/mrrawatofficial/bootstrap-5-starter#readme",
+	"dependencies": {
+		"bootstrap": "^5.1.3"
+	}
+}
