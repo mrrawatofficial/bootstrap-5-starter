@@ -1,14 +1,25 @@
 // Required
 @import "../node_modules/bootstrap/scss/functions";
-
-$variable-prefix: "mbr-";
-$primary: #fe4a49;
-$secondary: #2ab7ca;
-$warning: #fed766;
-$input-btn-focus-box-shadow: none;
-// $input-border-radius: 0;
-// $input-border-width: 0;
-
 @import "./variables";
-@import "../node_modules/bootstrap/scss/bootstrap";
-@import "./material-bootstrap";
+@import "../node_modules/bootstrap/scss/variables";
+// @import "./material-bootstrap";
+
+.transition {
+	position: absolute;
+	z-index: 99;
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	pointer-events: none;
+	list-style: none;
+}
+
+.transition li {
+	width: 100%;
+	transform: scaleX(0);
+	background: $dark;
+}

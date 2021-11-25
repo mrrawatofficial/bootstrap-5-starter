@@ -7,7 +7,6 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;50
 
 @mixin ripple($color) {
 	position: relative;
-
 	&::before {
 		content: "";
 		display: block;

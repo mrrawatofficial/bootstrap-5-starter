@@ -1,3 +1,4 @@
+$variable-prefix: "mbr-";
 $white: #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #eee !default;
@@ -20,9 +21,12 @@ $yellow: #ff9800 !default;
 $green: #4caf50 !default;
 $teal: #20c997 !default;
 $cyan: #9c27b0 !default;
+$custom-primary: #1970a3 !default;
+$custom-secondary: #2ab7ca !default;
+$input-btn-focus-box-shadow: none;
 
-$primary: $blue !default;
-$secondary: $white !default;
+$primary: $custom-primary !default;
+$custom-secondary: $white !default;
 $success: $green !default;
 $info: $cyan !default;
 $warning: $yellow !default;
